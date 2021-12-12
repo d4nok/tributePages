@@ -1,0 +1,74 @@
+
+body{
+    text-align: center;
+    margin: 0;
+    background: #fdef9f;
+}
+
+h1  {
+    font-size: 5em;
+    text-shadow: 1px 5px 7px rgb(107, 106, 106);
+    font-family: 'Lobster', cursive;
+    
+}
+.reference {
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    
+    
+}
+img{
+    width: 60%;
+    height: 30%;
+    border-radius: 4em;
+    transition-duration: 1s;
+}
+img:hover{
+    transform: scale(1.02);
+}
+
+figure figcaption {
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+}
+
+#main{
+    margin: auto;
+    width: 95%;
+    border-radius: 2em;
+    background-color: #787A91;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    
+}
+section{
+    background-color: #e2e2e2;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 37px;
+}
+ul {
+    max-width: 550px;
+    margin:  38px 110px 57px auto;
+    text-align: left;
+    line-height: 1.6;
+    font-weight: 800;
+}
+li {
+    margin: 16px 0;
+    font-size: 1em;
+}
+strong{
+    font-weight: bolder;
+    font-size: 1em;
+}
+#tribute-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+#tribute-link:hover {
+    color:rgb(7, 71, 50);
+    transform: scale(3);
+}
